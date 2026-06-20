@@ -18,3 +18,6 @@ __pycache__/
 .env
 .vscode/
 .idea/
+
+# Editable package metadata
+*.egg-info/

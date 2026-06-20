@@ -1,0 +1,16 @@
+document_id,page_number,exclusion_reason
+report_2h2024,1,cover
+report_2h2024,14,section_divider
+report_2h2024,19,section_divider
+report_2h2024,33,appendix_divider
+report_2h2024,35,thank_you_page
+report_1h2024,1,cover
+report_1h2024,13,section_divider
+report_1h2024,20,appendix_divider
+report_1h2024,22,thank_you_page
+report_1h2025,1,cover
+report_1h2025,30,image_table_requires_validation
+report_1h2025,32,image_table_requires_validation
+report_2h2023,1,cover
+report_2h2023,14,section_divider
+report_2h2023,22,thank_you_page

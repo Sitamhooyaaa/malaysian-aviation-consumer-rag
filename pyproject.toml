@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aviation-consumer-rag"
+version = "0.1.0"
+description = "Evaluated RAG assistant for Malaysian aviation consumer protection and service quality."
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "pandas>=3.0,<4.0",
+    "PyMuPDF>=1.27,<2.0",
+    "pdfplumber>=0.11,<0.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pypdf>=6.13,<7.0",
+    "jupyterlab>=4.6,<5.0",
+    "pytest>=9.1,<10.0",
+]
+
+[project.scripts]
+aviation-rag-build-pages = "aviation_rag.build_pages:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
