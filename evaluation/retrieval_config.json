@@ -1,5 +1,5 @@
 {
-  "status": "frozen_before_locked_evaluation",
+  "status": "locked_retrieval_evaluation_completed",
   "frozen_date": "2026-06-21",
   "primary_metric": "mean_page_recall_at_5",
   "secondary_metrics": [
@@ -54,5 +54,23 @@
     "Equal-weight RRF may suppress strong evidence found by only one retriever.",
     "Multi-intent cross-document questions may require query decomposition.",
     "Legal provisions continuing across page boundaries may require adjacent-page expansion."
-  ]
+  ],
+  "locked_evaluation_dataset": {
+    "file": "evaluation/locked_questions.json",
+    "question_count": 28,
+    "answerable_questions": 23,
+    "refusal_questions": 5,
+    "sha256": "c480687a0fe0abd35c5596dda3600f60dabd5cb78465935ecf4acff0bfa5279e",
+    "frozen_date": "2026-06-21",
+    "retrieval_run_status": "completed",
+    "first_run_metrics": {
+      "recall_at_1": 0.414493,
+      "recall_at_3": 0.70942,
+      "recall_at_5": 0.772464,
+      "hit_at_1": 0.565217,
+      "hit_at_3": 0.869565,
+      "hit_at_5": 0.869565
+    },
+    "first_run_metadata": "evaluation/locked_retrieval_run.json"
+  }
 }

@@ -1,0 +1,691 @@
+[
+  {
+    "question_id": "LOCK_REG_001",
+    "question": "Under paragraph 11(1) of the principal Code, what must an operating airline do first when it reasonably expects to deny boarding?",
+    "category": "direct_regulatory_lookup",
+    "difficulty": "easy",
+    "answerable": true,
+    "expected_answer": "It must first contact passengers to ask for volunteers to surrender their reservations.",
+    "required_facts": [
+      "The airline must first contact passengers to volunteer to surrender their reservations."
+    ],
+    "gold_document_ids": [
+      "macpc_principal_2016"
+    ],
+    "gold_pages": {
+      "macpc_principal_2016": [
+        50
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REG_002",
+    "question": "Under paragraphs 13(7) and 13(8) of the principal Code, what are the written complaint deadlines for delayed and damaged baggage, and what happens if the passenger misses the applicable deadline?",
+    "category": "direct_regulatory_lookup",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "For delayed baggage, the passenger must complain in writing within 21 days from the date the baggage was placed at the passenger's disposal. For damaged baggage, the deadline is seven days from that date. If no complaint is made within the applicable time, no action under the Code lies against the operating airline.",
+    "required_facts": [
+      "A delayed-baggage complaint must be made within 21 days from the date the baggage was placed at the passenger's disposal.",
+      "A damaged-baggage complaint must be made within seven days from the date the baggage was placed at the passenger's disposal.",
+      "Missing the applicable complaint period prevents an action under the Code against the operating airline."
+    ],
+    "gold_document_ids": [
+      "macpc_principal_2016"
+    ],
+    "gold_pages": {
+      "macpc_principal_2016": [
+        52,
+        53
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REG_003",
+    "question": "Under paragraph 17(4) of the principal Code, how quickly must an airline or aerodrome operator acknowledge a consumer complaint, and how quickly must it provide a substantive written response and resolution?",
+    "category": "direct_regulatory_lookup",
+    "difficulty": "easy",
+    "answerable": true,
+    "expected_answer": "It must acknowledge receipt within 24 hours from receiving the complaint and provide a substantive written response and resolution within 30 days from receiving the complaint.",
+    "required_facts": [
+      "The complaint must be acknowledged within 24 hours of receipt.",
+      "A substantive written response and resolution must be provided within 30 days of receipt."
+    ],
+    "gold_document_ids": [
+      "macpc_principal_2016"
+    ],
+    "gold_pages": {
+      "macpc_principal_2016": [
+        55
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not confuse paragraph 17(4) with the Commission-forwarded complaint process under paragraph 18(6)."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REG_004",
+    "question": "Under paragraph 8(5) inserted by the 2024 amendment, what written confirmation must an operating airline provide when an affected consumer requests it, and within what period?",
+    "category": "direct_regulatory_lookup",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "For a consumer affected by a flight cancellation or a delay of 30 minutes or more, the operating airline must, when requested, provide a letter pertaining to the cancellation or delay within seven working days from the date of the request.",
+    "required_facts": [
+      "The duty applies when an affected consumer requests the letter.",
+      "It covers cancellation or a delay of 30 minutes or more.",
+      "The letter must be provided within seven working days from the request date."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2024": [
+        37
+      ]
+    },
+    "effective_date_context": "The amended paragraph 8 took effect on 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not state that the letter must be provided automatically when the consumer has not requested it."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REG_005",
+    "question": "Under paragraph 9(16A) inserted by the 2019 amendment, when is a person with disability entitled to use wheelchair service free of charge?",
+    "category": "direct_regulatory_lookup",
+    "difficulty": "easy",
+    "answerable": true,
+    "expected_answer": "A person with disability is entitled to use wheelchair service free of charge upon producing a Kad OKU.",
+    "required_facts": [
+      "The wheelchair service is free for a person with disability upon production of a Kad OKU."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2019"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2019": [
+        26
+      ]
+    },
+    "effective_date_context": "The 2019 amendment took effect on 1 June 2019.",
+    "forbidden_inferences": [
+      "Do not remove the condition requiring production of a Kad OKU."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REG_006",
+    "question": "Under paragraphs 15A(6) and 15B inserted by the 2024 amendment, when must a contracting airline remit a refund to a consumer, and in what form must the refund be paid?",
+    "category": "direct_regulatory_lookup",
+    "difficulty": "easy",
+    "answerable": true,
+    "expected_answer": "The contracting airline must remit the refund within 30 days from the date of the refund claim. The refund must be paid in the same form as the consumer's original mode of payment when the ticket was purchased.",
+    "required_facts": [
+      "The refund must be remitted within 30 days from the date of the claim.",
+      "The refund must use the same form as the original mode of payment."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2024": [
+        50
+      ]
+    },
+    "effective_date_context": "Paragraphs 15A and 15B took effect on 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not claim that the airline may substitute cash, credit, or a voucher when that was not the original payment form."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_TEMP_001",
+    "question": "On 15 May 2019, was paragraph 9(16A) of the 2019 amendment already in force, allowing a person with disability to use wheelchair service free of charge upon producing a Kad OKU?",
+    "category": "temporal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "No. The 2019 amendment came into operation on 1 June 2019, so paragraph 9(16A) was not yet in force on 15 May 2019.",
+    "required_facts": [
+      "The 2019 amendment came into operation on 1 June 2019.",
+      "The free wheelchair provision was inserted by that amendment.",
+      "15 May 2019 was before its commencement."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2019"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2019": [
+        19,
+        26
+      ]
+    },
+    "effective_date_context": "15 May 2019",
+    "forbidden_inferences": [
+      "Do not claim that no other disability-related right or assistance existed before that date."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_TEMP_002",
+    "question": "Was the new paragraph 15A refund provision inserted by the 2024 amendment in force on 15 September 2024?",
+    "category": "temporal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "Yes. The 2024 amendment, except paragraph 8A, came into operation on 1 September 2024. Paragraph 15A was therefore in force on 15 September 2024.",
+    "required_facts": [
+      "The general commencement date of the 2024 amendment was 1 September 2024.",
+      "Only paragraph 8A had the later commencement date.",
+      "Paragraph 15A was inserted by the 2024 amendment."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2024": [
+        34,
+        49
+      ]
+    },
+    "effective_date_context": "15 September 2024",
+    "forbidden_inferences": [
+      "Do not apply paragraph 8A's later commencement date to paragraph 15A."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_TEMP_003",
+    "question": "On 31 August 2024, was paragraph 21A on unclaimed moneys already in force under the 2024 amendment?",
+    "category": "temporal_reasoning",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "No. Paragraph 21A was part of the 2024 amendment, which generally came into operation on 1 September 2024. It was not yet in force on 31 August 2024.",
+    "required_facts": [
+      "Paragraph 21A was inserted by the 2024 amendment.",
+      "The general commencement date was 1 September 2024.",
+      "31 August 2024 was before that date."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2024": [
+        34,
+        52
+      ]
+    },
+    "effective_date_context": "31 August 2024",
+    "forbidden_inferences": [
+      "Do not apply the provision before its commencement date."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_AMEND_001",
+    "question": "How did the 2024 amendment change the time limit for lodging a complaint with the Commission under paragraph 18(2)?",
+    "category": "amendment_change",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "The principal Code allowed one year from the date the cause of complaint accrued. The 2024 amendment changed that period to two years.",
+    "required_facts": [
+      "The principal Code specified a one-year limit.",
+      "The 2024 amendment substituted two years for one year."
+    ],
+    "gold_document_ids": [
+      "macpc_principal_2016",
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_principal_2016": [
+        55
+      ],
+      "macpc_amendment_2024": [
+        51
+      ]
+    },
+    "effective_date_context": "The two-year limit applies from 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not confuse the complaint-lodging limit with the 30-day response and resolution deadline."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_AMEND_002",
+    "question": "How did the 2024 amendment change the liability limit for lost or damaged baggage under paragraph 13(5)?",
+    "category": "amendment_change",
+    "difficulty": "hard",
+    "answerable": true,
+    "expected_answer": "The principal Code limited liability to 1,131 Special Drawing Rights for each passenger. The 2024 amendment moved the limit to the Third Schedule and set it at 1,288 Special Drawing Rights for each consumer.",
+    "required_facts": [
+      "The principal limit was 1,131 Special Drawing Rights for each passenger.",
+      "The amended paragraph refers to the Third Schedule.",
+      "The Third Schedule sets 1,288 Special Drawing Rights for each consumer."
+    ],
+    "gold_document_ids": [
+      "macpc_principal_2016",
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_principal_2016": [
+        52
+      ],
+      "macpc_amendment_2024": [
+        48,
+        58
+      ]
+    },
+    "effective_date_context": "The amended limit applies from 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not convert the Special Drawing Rights amount into a fixed Ringgit value."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_AMEND_003",
+    "question": "How did the 2024 amendment restructure the general refund provisions that the 2019 amendment had placed in paragraph 7A?",
+    "category": "amendment_change",
+    "difficulty": "hard",
+    "answerable": true,
+    "expected_answer": "The 2024 amendment deleted paragraph 7A and inserted paragraphs 15A and 15B after paragraph 15. Paragraph 15A lists refundable fare components and charges, keeps a 30-day remittance period, and paragraph 15B requires payment in the same form as the consumer's original payment method.",
+    "required_facts": [
+      "The 2019 amendment inserted refund rules in paragraph 7A.",
+      "The 2024 amendment deleted paragraph 7A.",
+      "The 2024 amendment inserted paragraphs 15A and 15B.",
+      "Paragraph 15B requires the original form of payment."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2019",
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2019": [
+        23,
+        24
+      ],
+      "macpc_amendment_2024": [
+        36,
+        49,
+        50
+      ]
+    },
+    "effective_date_context": "The replacement provisions apply from 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not claim that every ticket component is refundable without regard to paragraph 15A's conditions."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_AMEND_004",
+    "question": "For a flight rescheduling of three hours or more, how did the notification timing change from the 2019 amendment to the 2024 amendment?",
+    "category": "amendment_change",
+    "difficulty": "hard",
+    "answerable": true,
+    "expected_answer": "The 2019 amendment required information about a planned rescheduling within twelve to forty-eight hours from the scheduled departure time. The 2024 amendment requires notification when the rescheduling is determined or at least twenty-four hours from the scheduled departure time.",
+    "required_facts": [
+      "The 2019 rule used a twelve-to-forty-eight-hour timing window.",
+      "The 2024 rule requires notice when determined or at least twenty-four hours from scheduled departure."
+    ],
+    "gold_document_ids": [
+      "macpc_amendment_2019",
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "macpc_amendment_2019": [
+        25,
+        26
+      ],
+      "macpc_amendment_2024": [
+        37,
+        38
+      ]
+    },
+    "effective_date_context": "Compare the rules effective from 1 June 2019 and 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not confuse paragraph 8 rescheduling notice with paragraph 8A's separate two-week rule."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_001",
+    "question": "How many consumer complaints were received in the second half of 2023, and how did that compare with the second half of 2022?",
+    "category": "report_fact_retrieval",
+    "difficulty": "easy",
+    "answerable": true,
+    "expected_answer": "MAVCOM received 1,948 complaints in 2H2023, a decrease of 0.3% from 1,954 complaints in 2H2022.",
+    "required_facts": [
+      "There were 1,948 complaints in 2H2023.",
+      "This was 0.3% lower than 1,954 in 2H2022."
+    ],
+    "gold_document_ids": [
+      "report_2h2023"
+    ],
+    "gold_pages": {
+      "report_2h2023": [
+        3
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_002",
+    "question": "How many consumer complaints were received in the first half of 2024, and how did that compare with the first half of 2023?",
+    "category": "report_fact_retrieval",
+    "difficulty": "easy",
+    "answerable": true,
+    "expected_answer": "MAVCOM received 2,083 complaints in 1H2024, a decrease of 32% from 3,063 complaints in 1H2023.",
+    "required_facts": [
+      "There were 2,083 complaints in 1H2024.",
+      "This was 32% lower than 3,063 in 1H2023."
+    ],
+    "gold_document_ids": [
+      "report_1h2024"
+    ],
+    "gold_pages": {
+      "report_1h2024": [
+        3
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_003",
+    "question": "Which Malaysian airlines exceeded the 90% target for resolving complaints within 30 days in the first half of 2024, and what rates did they achieve?",
+    "category": "report_fact_retrieval",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "Firefly and Malaysia Airlines each achieved 99%, while MASwings achieved 100%.",
+    "required_facts": [
+      "Firefly achieved 99%.",
+      "Malaysia Airlines achieved 99%.",
+      "MASwings achieved 100%."
+    ],
+    "gold_document_ids": [
+      "report_1h2024"
+    ],
+    "gold_pages": {
+      "report_1h2024": [
+        6
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not rank airlines by raw complaint count when answering a resolution-rate question."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_004",
+    "question": "How many airport complaints were reported in the second half of 2024, were they resolved within 30 days, and which airport terminal received the most?",
+    "category": "report_fact_retrieval",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "There were 32 airport complaints, all were resolved within 30 days, and KLIA Terminal 1 received the most with 13 complaints.",
+    "required_facts": [
+      "There were 32 airport complaints.",
+      "All were resolved within 30 days.",
+      "KLIA Terminal 1 had 13 complaints, the highest number."
+    ],
+    "gold_document_ids": [
+      "report_2h2024"
+    ],
+    "gold_pages": {
+      "report_2h2024": [
+        11
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_005",
+    "question": "What did the second-half 2024 report say about the international on-time performance of Malaysian carriers, including AirAsia X's highest result?",
+    "category": "report_fact_retrieval",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "All Malaysian carriers recorded international on-time performance below the 85% target in 2H2024. AirAsia X exceeded 80% from August through November and reached its highest result of 84.5% in October, 0.5 percentage points below the target.",
+    "required_facts": [
+      "All Malaysian carriers were below the 85% international target.",
+      "AirAsia X peaked at 84.5% in October.",
+      "The peak was 0.5 percentage points below target."
+    ],
+    "gold_document_ids": [
+      "report_2h2024"
+    ],
+    "gold_pages": {
+      "report_2h2024": [
+        17
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not infer the operational cause of the reported performance."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_006",
+    "question": "How were airport complaints distributed in the first half of 2025, particularly across KLIA Terminals 1 and 2 and Kota Kinabalu International Airport?",
+    "category": "report_fact_retrieval",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "There were 60 airport complaints. KLIA Terminals 1 and 2 together accounted for 36 complaints, or 60% of the total, while Kota Kinabalu International Airport recorded 8 complaints.",
+    "required_facts": [
+      "There were 60 airport complaints.",
+      "KLIA Terminals 1 and 2 had 36 complaints or 60%.",
+      "Kota Kinabalu International Airport had 8 complaints."
+    ],
+    "gold_document_ids": [
+      "report_1h2025"
+    ],
+    "gold_pages": {
+      "report_1h2025": [
+        17
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REPORT_007",
+    "question": "How did Malaysian carriers compare with foreign carriers on average on-time performance and scheduled-flight completion in the first half of 2025?",
+    "category": "report_fact_retrieval",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "Malaysian carriers averaged 71.6% on-time performance and 88.9% scheduled-flight completion, compared with 75.0% and 95.2% respectively for foreign carriers.",
+    "required_facts": [
+      "Malaysian carriers averaged 71.6% OTP and 88.9% scheduled-flight completion.",
+      "Foreign carriers averaged 75.0% OTP and 95.2% scheduled-flight completion."
+    ],
+    "gold_document_ids": [
+      "report_1h2025"
+    ],
+    "gold_pages": {
+      "report_1h2025": [
+        34
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_SYNTH_001",
+    "question": "Which airlines exceeded the 90% complaint-resolution target in the first half of 2024, and what deadline in paragraph 17(4) of the principal Code provides the regulatory context for that metric?",
+    "category": "cross_document_synthesis",
+    "difficulty": "hard",
+    "answerable": true,
+    "expected_answer": "Firefly and Malaysia Airlines each achieved 99%, and MASwings achieved 100%. Paragraph 17(4) requires an airline or aerodrome operator to provide a substantive written response and resolution within 30 days of receiving the complaint.",
+    "required_facts": [
+      "The three airlines and their rates must be stated.",
+      "Paragraph 17(4) sets a 30-day response and resolution deadline."
+    ],
+    "gold_document_ids": [
+      "report_1h2024",
+      "macpc_principal_2016"
+    ],
+    "gold_pages": {
+      "report_1h2024": [
+        6
+      ],
+      "macpc_principal_2016": [
+        55
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not treat the report's 90% monitoring target as proof that every result below 90% is automatically a legal finding."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_SYNTH_002",
+    "question": "What did the second-half 2024 report show about Malaysian carriers' international on-time performance, and what notification duty does amended paragraph 8 impose when flight status changes?",
+    "category": "cross_document_synthesis",
+    "difficulty": "hard",
+    "answerable": true,
+    "expected_answer": "The report states that all Malaysian carriers were below the 85% international on-time-performance target, with AirAsia X peaking at 84.5% in October. Amended paragraph 8 requires the operating airline to notify consumers and inform the public about a change in flight status as soon as practicable to the Commission's satisfaction, and the airline must be able to show that notification and public information occurred.",
+    "required_facts": [
+      "The report's international OTP finding must be stated.",
+      "The amended notification and proof duties must be stated."
+    ],
+    "gold_document_ids": [
+      "report_2h2024",
+      "macpc_amendment_2024"
+    ],
+    "gold_pages": {
+      "report_2h2024": [
+        17
+      ],
+      "macpc_amendment_2024": [
+        37
+      ]
+    },
+    "effective_date_context": "The amended paragraph 8 applies from 1 September 2024.",
+    "forbidden_inferences": [
+      "Do not claim that low on-time performance by itself proves a breach of paragraph 8."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_SYNTH_003",
+    "question": "What was the main airport complaint issue in the second half of 2024, and which service areas does the first-half 2025 report say are covered by the Airport Quality of Service Framework?",
+    "category": "cross_document_synthesis",
+    "difficulty": "medium",
+    "answerable": true,
+    "expected_answer": "Airport facilities were the main complaint issue in 2H2024. The 1H2025 report says the Airport Quality of Service Framework covers terminal comfort, baggage handling performance, equipment reliability, and queueing times.",
+    "required_facts": [
+      "Airport facilities were the main reported issue.",
+      "The four stated Quality of Service areas must be listed."
+    ],
+    "gold_document_ids": [
+      "report_2h2024",
+      "report_1h2025"
+    ],
+    "gold_pages": {
+      "report_2h2024": [
+        11
+      ],
+      "report_1h2025": [
+        49
+      ]
+    },
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not claim that every facilities complaint belongs to all four Quality of Service areas or proves non-compliance."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REFUSE_001",
+    "question": "Where is my missing checked bag right now?",
+    "category": "refusal",
+    "difficulty": "easy",
+    "answerable": false,
+    "expected_answer": "The assistant must refuse because the document collection contains no live baggage-tracking data. It should direct the user to the airline or baggage-tracing service and request a baggage reference number.",
+    "required_facts": [],
+    "gold_document_ids": [],
+    "gold_pages": {},
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not invent a baggage location or tracking status."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REFUSE_002",
+    "question": "Based only on these documents, tell me exactly how much compensation I will receive for my cancelled flight and confirm that the airline is legally liable.",
+    "category": "refusal",
+    "difficulty": "medium",
+    "answerable": false,
+    "expected_answer": "The assistant must refuse to determine a case-specific amount or legal liability without verified incident facts. It may explain the documented rules and state what booking, route, timing, cause, and airline evidence would be needed.",
+    "required_facts": [],
+    "gold_document_ids": [],
+    "gold_pages": {},
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not give a guaranteed compensation amount or legal conclusion for an individual case."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REFUSE_003",
+    "question": "How many aviation consumer complaints will Malaysia receive in the second half of 2025?",
+    "category": "refusal",
+    "difficulty": "easy",
+    "answerable": false,
+    "expected_answer": "The assistant must refuse to present an unsupported forecast. The collection contains historical reports, not an approved forecasting model or future observations.",
+    "required_facts": [],
+    "gold_document_ids": [],
+    "gold_pages": {},
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not extrapolate a future complaint total from a few historical periods."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REFUSE_004",
+    "question": "What internal operational failure caused Malaysia Airlines' on-time performance result in the report?",
+    "category": "refusal",
+    "difficulty": "medium",
+    "answerable": false,
+    "expected_answer": "The assistant must say that the reports provide performance figures but do not establish the airline's internal root cause. Internal operational records or an official investigation would be required.",
+    "required_facts": [],
+    "gold_document_ids": [],
+    "gold_pages": {},
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not invent or infer an internal root cause from performance statistics alone."
+    ],
+    "split": "locked"
+  },
+  {
+    "question_id": "LOCK_REFUSE_005",
+    "question": "Check whether my airline refund or CAAM complaint has been approved and tell me its current status.",
+    "category": "refusal",
+    "difficulty": "easy",
+    "answerable": false,
+    "expected_answer": "The assistant must refuse because it has no access to airline booking systems or CAAM's Complaint Management System. It should direct the user to the relevant provider and ask them to use their case or booking reference.",
+    "required_facts": [],
+    "gold_document_ids": [],
+    "gold_pages": {},
+    "effective_date_context": null,
+    "forbidden_inferences": [
+      "Do not claim access to private booking, refund, or complaint systems."
+    ],
+    "split": "locked"
+  }
+]

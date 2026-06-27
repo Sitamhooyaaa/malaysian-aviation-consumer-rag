@@ -1,0 +1,48 @@
+{
+  "run_type": "first_locked_retrieval_evaluation",
+  "run_timestamp_utc": "2026-06-21T13:16:01.447191+00:00",
+  "locked_dataset_sha256": "c480687a0fe0abd35c5596dda3600f60dabd5cb78465935ecf4acff0bfa5279e",
+  "answerable_questions": 23,
+  "retrieved_chunks_per_question": 5,
+  "retriever": {
+    "chunking": {
+      "method": "word_window",
+      "max_words": 140,
+      "overlap_words": 25,
+      "preserve_page_boundaries": true
+    },
+    "lexical_retriever": {
+      "method": "tfidf",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "lowercase": true
+    },
+    "semantic_retriever": {
+      "model": "BAAI/bge-small-en-v1.5",
+      "query_instruction": "Represent this sentence for searching relevant passages: ",
+      "normalize_embeddings": true
+    },
+    "hybrid_retriever": {
+      "method": "weighted_reciprocal_rank_fusion",
+      "candidate_k": 20,
+      "rrf_constant": 60,
+      "lexical_weight": 0.5,
+      "semantic_weight": 0.5
+    }
+  },
+  "mean_metrics": {
+    "recall_at_1": 0.414493,
+    "recall_at_3": 0.70942,
+    "recall_at_5": 0.772464,
+    "hit_at_1": 0.565217,
+    "hit_at_3": 0.869565,
+    "hit_at_5": 0.869565
+  },
+  "outputs": {
+    "metrics": "evaluation/locked_retrieval_metrics.csv",
+    "rankings": "evaluation/locked_retrieval_rankings.jsonl"
+  }
+}

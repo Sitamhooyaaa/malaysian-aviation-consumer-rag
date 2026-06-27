@@ -1,0 +1,14 @@
+question_id,document_id,page_number,tfidf_best_rank,bge_best_rank,entered_hybrid_candidates,hybrid_best_rank
+LOCK_TEMP_001,macpc_amendment_2019,19,5,8,True,9.0
+LOCK_AMEND_001,macpc_principal_2016,55,14,3,True,6.0
+LOCK_AMEND_002,macpc_amendment_2024,58,9,15,True,7.0
+LOCK_AMEND_003,macpc_amendment_2024,49,29,2,True,11.0
+LOCK_AMEND_003,macpc_amendment_2024,50,17,5,True,7.0
+LOCK_AMEND_004,macpc_amendment_2019,25,2,10,True,7.0
+LOCK_AMEND_004,macpc_amendment_2019,26,14,11,True,9.0
+LOCK_SYNTH_001,macpc_principal_2016,55,130,66,False,
+LOCK_SYNTH_001,report_1h2024,6,26,10,True,20.0
+LOCK_SYNTH_002,macpc_amendment_2024,37,15,8,True,10.0
+LOCK_SYNTH_002,report_2h2024,17,3,20,True,9.0
+LOCK_SYNTH_003,report_1h2025,49,38,60,False,
+LOCK_SYNTH_003,report_2h2024,11,59,18,True,29.0

@@ -1,0 +1,4 @@
+# Keep structured project artifacts stable across Windows and Linux.
+*.json text eol=lf
+*.ipynb text eol=lf
+*.sha256 text eol=lf
