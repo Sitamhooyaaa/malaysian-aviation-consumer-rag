@@ -21,3 +21,7 @@ __pycache__/
 
 # Editable package metadata
 *.egg-info/
+
+evaluation/development_answers_dev_v1.jsonl
+evaluation/development_answers_dev_v2.jsonl
+evaluation/locked_answers_first_run.jsonl

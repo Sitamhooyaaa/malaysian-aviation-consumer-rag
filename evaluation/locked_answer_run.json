@@ -1,0 +1,37 @@
+{
+  "status": "generation_completed",
+  "locked_dataset_sha256": "c480687a0fe0abd35c5596dda3600f60dabd5cb78465935ecf4acff0bfa5279e",
+  "locked_answers_sha256": "b46775df4ab2fdab85dd6d675bd61b9e32cfe1d78708dae5421b61c3e636e13e",
+  "question_count": 28,
+  "answerable_questions": 23,
+  "refusal_questions": 5,
+  "prompt_version": "dev_v2",
+  "system_prompt_sha256": "f5ab2896d41a64182d5d4727e548a2bac73d586d4267665a92d0fa953c5ad58e",
+  "model": "gemini-3.5-flash",
+  "temperature": 0.0,
+  "thinking_budget": 0,
+  "retrieval_top_k": 5,
+  "run_started_at_utc": "2026-06-29T16:29:18.563828+00:00",
+  "run_completed_at_utc": "2026-06-30T10:01:38.387751+00:00",
+  "prompt_tokens": 43456,
+  "output_tokens": 3541,
+  "total_tokens": 46997,
+  "finish_reasons": {
+    "FinishReason.STOP": 28
+  },
+  "answers_file": "locked_answers_first_run.jsonl",
+  "manual_evaluation_status": "completed",
+  "locked_scores_sha256": "8826ac32a10bf8226b2f022eb7706780e3cafb61dc3497eb69952bfff95cc1c0",
+  "manual_evaluation_summary": {
+    "answerable_questions": 23.0,
+    "answerable_micro_fact_coverage": 0.7678571428571429,
+    "answerable_fact_complete_rate": 0.6956521739130435,
+    "answerable_full_pass_rate": 0.6086956521739131,
+    "answerable_citation_validity_rate": 0.8695652173913043,
+    "answerable_citation_support_rate": 0.9565217391304348,
+    "answerable_faithfulness_rate": 1.0,
+    "refusal_questions": 5.0,
+    "correct_refusal_rate": 1.0,
+    "clean_refusal_pass_rate": 0.6
+  }
+}

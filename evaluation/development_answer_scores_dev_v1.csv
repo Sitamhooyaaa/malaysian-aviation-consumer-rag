@@ -1,0 +1,13 @@
+question_id,required_facts_met,required_facts_total,required_fact_coverage,citation_validity_pass,citation_support_pass,unsupported_claim_count,faithfulness_pass,forbidden_inference_pass,refusal_correct,notes,answerable,failure_stage
+DEV_REG_001,1,1,1.0,True,True,0,True,True,,Correct effective date with direct support from principal Code page 39.,True,none
+DEV_REG_002,1,1,1.0,True,True,0,True,True,,Correct 2019 effective date with support from amendment page 19.,True,none
+DEV_TEMP_001,2,2,1.0,True,True,0,True,True,,"Correct general 2024 effective date and paragraph 8A exception, supported by amendment page 34.",True,none
+DEV_TEMP_002,2,2,1.0,True,True,0,True,True,,Correctly applies paragraph 8A's effective date without making a broader legal judgment.,True,none
+DEV_AMEND_001,4,5,0.8,True,True,0,True,True,,Four facts were complete. The answer mentioned strikes but omitted that they must affect the operation of the operating airline.,True,generation_completeness
+DEV_AMEND_002,0,3,0.0,True,True,0,True,False,,The answer refused because the retrieved context did not include the paragraph 8A requirement on page 38. This is primarily a retrieval failure. None of the three required facts were answered.,True,retrieval
+DEV_REPORT_001,3,3,1.0,True,True,0,True,True,,Correctly reports both complaint totals and the 34 percent increase without making an unsupported causal claim.,True,none
+DEV_REPORT_002,3,3,1.0,True,True,0,True,True,,Correctly identifies all three categories and their complaint counts without introducing causal claims or unsupported rates.,True,none
+DEV_SYNTH_001,1,4,0.25,True,True,0,True,True,,"Correctly retrieved and cited the 659 complaint count, but failed to answer all three regulatory facts about reimbursement and re-routing. This is primarily a multi-document retrieval failure.",True,retrieval
+DEV_REFUSE_001,2,2,1.0,,,0,True,True,True,"Correctly refuses a request requiring live baggage data, makes no claim of tracking access, and invents no baggage location.",False,none
+DEV_REFUSE_002,2,2,1.0,,,1,False,True,True,"Correctly refuses to determine legal fault or compensation because case-specific evidence is missing. However, it overstates that the corpus lacks relevant legal criteria and gives a potentially stale specific regulator referral.",False,generation_refusal_wording
+DEV_REFUSE_003,2,2,1.0,True,True,1,False,False,True,"Correctly reports the complaint figures and refuses to invent the cause. However, saying Malaysia Airlines contributed to the increase introduces an unsupported inference from complaint counts.",False,generation_refusal_wording

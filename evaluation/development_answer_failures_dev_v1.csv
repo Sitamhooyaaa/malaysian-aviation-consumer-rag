@@ -1,0 +1,6 @@
+question_id,required_fact_coverage,unsupported_claim_count,forbidden_inference_pass,refusal_correct,failure_stage,notes
+DEV_AMEND_001,0.8,0,True,,generation_completeness,Four facts were complete. The answer mentioned strikes but omitted that they must affect the operation of the operating airline.
+DEV_AMEND_002,0.0,0,False,,retrieval,The answer refused because the retrieved context did not include the paragraph 8A requirement on page 38. This is primarily a retrieval failure. None of the three required facts were answered.
+DEV_SYNTH_001,0.25,0,True,,retrieval,"Correctly retrieved and cited the 659 complaint count, but failed to answer all three regulatory facts about reimbursement and re-routing. This is primarily a multi-document retrieval failure."
+DEV_REFUSE_002,1.0,1,True,True,generation_refusal_wording,"Correctly refuses to determine legal fault or compensation because case-specific evidence is missing. However, it overstates that the corpus lacks relevant legal criteria and gives a potentially stale specific regulator referral."
+DEV_REFUSE_003,1.0,1,False,True,generation_refusal_wording,"Correctly reports the complaint figures and refuses to invent the cause. However, saying Malaysia Airlines contributed to the increase introduces an unsupported inference from complaint counts."

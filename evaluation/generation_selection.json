@@ -1,0 +1,18 @@
+{
+  "status": "frozen_before_locked_answer_evaluation",
+  "selected_prompt_version": "dev_v2",
+  "selected_prompt_sha256": "f5ab2896d41a64182d5d4727e548a2bac73d586d4267665a92d0fa953c5ad58e",
+  "selected_model": "gemini-3.5-flash",
+  "development_question_count": 12,
+  "selection_reason": "Same answerable performance as dev_v1, with fewer unsupported refusal claims and a higher forbidden-inference pass rate.",
+  "known_limitations": [
+    "Answerable full-pass rate was 0.667.",
+    "Answerable fact coverage was 0.708.",
+    "Clean-refusal pass rate was 0.333.",
+    "Retrieval failures remained for paragraph 8A and cross-document synthesis."
+  ],
+  "development_answers_file": "development_answers_dev_v2.jsonl",
+  "generation_config_file": "generation_config_dev_v2.json",
+  "locked_answer_evaluation_status": "completed",
+  "locked_answer_run_metadata": "locked_answer_run.json"
+}
