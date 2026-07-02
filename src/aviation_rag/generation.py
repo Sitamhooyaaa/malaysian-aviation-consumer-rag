@@ -1,11 +1,7 @@
-"""Grounded answer-generation utilities."""
-
-import pandas as pd
 import re
+from typing import Any, Callable
 
 import pandas as pd
-from typing import Any
-from typing import Any, Callable
 
 REQUIRED_RETRIEVAL_COLUMNS = {
     "document_id",

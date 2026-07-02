@@ -4,6 +4,7 @@ import pytest
 
 from aviation_rag.gemini import (
     generate_with_gemini,
+    GeminiServiceError
 )
 
 
@@ -157,5 +158,36 @@ def test_generate_with_gemini_rejects_empty_response():
             model="gemini-test",
             temperature=0.0,
             max_output_tokens=500,
+            thinking_budget=0,
+        )
+
+def test_generate_with_gemini_wraps_provider_error():
+    class FailingModels:
+        def generate_content(self, **kwargs):
+            raise RuntimeError("503 UNAVAILABLE")
+
+    client = SimpleNamespace(
+        models=FailingModels()
+    )
+
+    with pytest.raises(
+        GeminiServiceError,
+        match="503 UNAVAILABLE",
+    ):
+        generate_with_gemini(
+            messages=[
+                {
+                    "role": "system",
+                    "content": "Use evidence.",
+                },
+                {
+                    "role": "user",
+                    "content": "Question and evidence.",
+                },
+            ],
+            client=client,
+            model="gemini-test",
+            temperature=0.0,
+            max_output_tokens=100,
             thinking_budget=0,
         )

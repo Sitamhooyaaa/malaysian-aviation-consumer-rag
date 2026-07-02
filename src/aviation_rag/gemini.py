@@ -4,6 +4,8 @@ from typing import Any
 
 from google.genai import types
 
+class GeminiServiceError(RuntimeError):
+    """Raised when the Gemini provider request fails."""
 
 def generate_with_gemini(
     messages: list[dict[str, str]],
@@ -40,8 +42,8 @@ def generate_with_gemini(
             "max_output_tokens must be positive"
         )
 
-    response = (
-        client.models.generate_content(
+    try:
+        response = client.models.generate_content(
             model=model,
             contents=messages[1]["content"],
             config=types.GenerateContentConfig(
@@ -49,19 +51,16 @@ def generate_with_gemini(
                     messages[0]["content"]
                 ),
                 temperature=temperature,
-                max_output_tokens=(
-                    max_output_tokens
-                ),
-                thinking_config=(
-                    types.ThinkingConfig(
-                        thinking_budget=(
-                            thinking_budget
-                        )
-                    )
+                max_output_tokens=max_output_tokens,
+                thinking_config=types.ThinkingConfig(
+                    thinking_budget=thinking_budget
                 ),
             ),
         )
-    )
+    except Exception as error:
+        raise GeminiServiceError(
+            f"Gemini request failed: {error}"
+        ) from error
 
     if not response.text:
         raise RuntimeError(
